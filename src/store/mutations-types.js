@@ -1,0 +1,5 @@
+export const GET_USER_INFO = 'getuserinfo'
+export const GET_LOGIN_CODE = 'getlogincode'
+export const SET_NATIONAL_CODE = 'setnationalcode'
+export const SET_CONFIG_LANG = 'setconfiglang'
+export const SET_EMAIL_INFO = 'setemailinfo'

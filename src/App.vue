@@ -1,6 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view v-slot="{ Component }">
+      <keep-alive :include="['HelloWorld33333','HelloWorld777777']">
+        <component :is="Component" />
+      </keep-alive>
+  </router-view>
+
 </template>
 
 <script>
